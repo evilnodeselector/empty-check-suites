@@ -1,0 +1,5 @@
+name: Caller
+on: [push, pull_request]
+jobs:
+  call:
+    uses: ./.github/workflows/_reusable.yml
